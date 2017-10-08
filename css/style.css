@@ -774,7 +774,7 @@ a.article-title:hover {
   line-height: 36px;
 }
 .article-share-links {
-  background: #1a1a1a;
+  background: #303030;
   border: 1px solid #444;
   border-top: none;
 }
@@ -795,7 +795,7 @@ a.article-title:hover {
   display: block;
   float: left;
   position: relative;
-  color: #258fb8;
+  color: #999;
 }
 .article-share-twitter:before,
 .article-share-facebook:before,
