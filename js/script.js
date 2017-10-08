@@ -1,4 +1,9 @@
 (function($){
+  // Dynamically add mailto to help minimize spam
+  $('.contact').on('click', function(event){
+    $('.contact').attr("href", "mailto:info@concentrationmoon.com")
+  });
+
   // Share
   $('body').on('click', function(){
     $('.article-share-box.on').removeClass('on');
